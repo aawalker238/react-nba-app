@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-
+// CSS
 import './layout.css';
+
+// Components
+import Header from '../../Components/Header/Header';
 
 class Layout extends Component {
   render() {
     return (
       <div>
-        <h1>Layout</h1>
+        <Header />
         {this.props.children}
       </div>
     );
